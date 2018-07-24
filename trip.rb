@@ -16,5 +16,7 @@ stay = gets.chomp.capitalize  #don't forget to Capitilize the input
 puts "Awesome!"
 
 puts "What would you like to eat?"
-eat = gets.chomp.capitalize
-puts "cool!"
+eats = gets.chomp.capitalize
+puts "cool! where are you gonna stay at night"
+nights = gets.chomp 
+puts "alright so your staying in #{stay}, your eating #{eats}, and your staying your nights in the #{nights}"
