@@ -19,4 +19,4 @@ puts "What would you like to eat?"
 eats = gets.chomp.capitalize
 puts "cool! where are you gonna stay at night"
 nights = gets.chomp 
-puts "alright so your staying in #{stay}, your eating #{eats}, and your staying your nights in the #{nights}"
+puts "alright so your staying in #{stay.capitalize}, your eating #{eats.capitalize}, and your staying your nights in the #{nights}"
